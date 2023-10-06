@@ -34,13 +34,13 @@
 .multi{
     background-color: black;
     color: gold;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0px 5px;
 }
 .shop{
     background-color: gold;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0px 5px;
 }
 #header2{
@@ -54,7 +54,7 @@
 }
 .search input{
     padding: 2.5px;
-    font-size: 18px;
+    font-size: 16px;
     border-width: 2px;
 }
 .searchicon{
@@ -63,12 +63,11 @@
     padding: 3px;
     position: relative;
     right: 5px;
-    bottom: 1px;
     border-width: 2px;
 }
 .customer{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 #categories select{
     padding: 10px 20px;
@@ -80,12 +79,12 @@
     color: black;
     position: relative;
     left: 20px;
-    top: 15px;  
+    top: 11px;  
 }
 .navdiv{
 display: flex;
 justify-content: space-between;
-margin: 5px 0px 0px 0px;
+margin: 0px 20px 0px 0px;
 border: 1px solid transparent;
 background-color: black;
 border: none;
@@ -129,13 +128,13 @@ color: white;
 }
 .backimg1{
     background-image:url('img/carousel-1.jpg');
-    max-width:1080px;
+    max-width:900px;
     height: 400px;
-    margin: 10px 0px 0px 40px;
+    margin-top: 10px;
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px 200px;
     background-size: cover;
@@ -152,7 +151,7 @@ color: white;
     color: white;
     padding: 5px;
     margin-bottom: 5PX;
-    font-size: 14px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .backimg1 button{
@@ -161,7 +160,7 @@ color: white;
     padding: 15px;
     width: 150px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border-color: white;
 }
 .box{
@@ -177,13 +176,13 @@ color: white;
     background-image:url("img/offer-1.jpg");
     background-size: cover;
     height:200px;
-    max-width:515px;
+    max-width:400px;
     position: relative;
-    left:1150px;
+    left:920px;
     bottom: 400px;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 .backimg2 p{
     padding-top: 50px;
@@ -197,13 +196,13 @@ color: white;
     background-image: url("img/offer-2.jpg");
     background-size: cover;
     height: 190px;
-    max-width: 515px;
+    max-width: 400px;
     position: relative;
-    left: 1150px;
+    left: 920px;
     bottom: 390px;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 .backimg3 p{
     padding-top: 50px;
@@ -224,7 +223,7 @@ color: white;
     bottom: 310px;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 .backimg4 p{
     padding-top: 50px;
@@ -245,7 +244,7 @@ color: white;
     bottom: 500px;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 .backimg5 p{
     padding-top: 50px;
@@ -266,25 +265,10 @@ color: white;
 .quality li{
     background-color: rgb(233, 230, 230);
     padding: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .quality i{
     color: gold;
     margin-right: 10px;
-}
-/* First Responsive */
-@media (max-width:846px)
-{.navdiv{
-    margin: 5px 25px 0px 0px;
-    
-}
-.backimg1{
-    max-width:500px;
-    background-size:cover;
-}
-.backimg2{
-    max-width:200px;
-    background-size:cover;
-}
 }
