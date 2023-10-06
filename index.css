@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(202, 200, 171);
+    padding: 5px;
+}
+.headerright{
+    display: flex;
+    list-style: none;
+    margin:0px 20px;
+}
+.headerleft{
+    display: flex;
+    list-style: none;
+    margin: 0px 20px;
+}
+.headerleft li{
+    display: flex;
+    list-style: none;
+    margin: 0px 20px;
+  
+}
+.headerright li{
+    display: flex;
+    list-style: none;
+    margin:0px 20px;
+}
+.multi{
+    background-color: black;
+    color: gold;
+    font-size: 30px;
+    padding: 0px 5px;
+}
+.shop{
+    background-color: gold;
+    color: black;
+    font-size: 30px;
+    padding: 0px 5px;
+}
+#header2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    list-style: none;
+}
+.search{
+    margin-top: 10px;
+}
+.search input{
+    padding: 2.5px;
+    font-size: 18px;
+    border-width: 2px;
+}
+.searchicon{
+    border: 1px solid gray;
+    color: gold;
+    padding: 3px;
+    position: relative;
+    right: 5px;
+    bottom: 1px;
+    border-width: 2px;
+}
+.customer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#categories select{
+    padding: 10px 20px;
+     background-color: gold;
+     border: none;
+}
+#categories i{
+    padding-left: 15px;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 15px;  
+}
+.navdiv{
+display: flex;
+justify-content: space-between;
+margin: 5px 0px 0px 0px;
+border: 1px solid transparent;
+background-color: black;
+border: none;
+}
+
+#navbar1{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar1 li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.navbar2 li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    color: gold;
+}
+.navbar2 li i{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.navcolor li{
+color: white;
+}
+.navcolor{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.navcolor li:hover{
+    color:gold;
+}
+.backimg1{
+    background-image:url('img/carousel-1.jpg');
+    max-width:1080px;
+    height: 400px;
+    margin: 10px 0px 0px 40px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 200px;
+    background-size: cover;
+}
+.backimg1 p{
+    margin-top: 10px;
+}
+.backimg1 h1{
+    margin-top: 50px;
+}
+.b{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5PX;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backimg1 button{
+    margin-top: 50px;
+    background-color: transparent;
+    padding: 15px;
+    width: 150px;
+    color: white;
+    font-size: 18px;
+    border-color: white;
+}
+.box{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    border: 1px solid transparent;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+.backimg2{
+    background-image:url("img/offer-1.jpg");
+    background-size: cover;
+    height:200px;
+    max-width:515px;
+    position: relative;
+    left:1150px;
+    bottom: 400px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.backimg2 p{
+    padding-top: 50px;
+}
+.backimg2 button{
+    background-color: gold;
+    border-color: transparent;
+    margin-top: 20px;
+}
+.backimg3{
+    background-image: url("img/offer-2.jpg");
+    background-size: cover;
+    height: 190px;
+    max-width: 515px;
+    position: relative;
+    left: 1150px;
+    bottom: 390px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.backimg3 p{
+    padding-top: 50px;
+}
+.backimg3 button{
+    background-color: gold;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+.backimg4{
+    background-image: url("img/offer-1.jpg");
+    background-size: cover;
+    height: 190px;
+    max-width: 400px;
+    position: relative;
+    left: 250px;
+    bottom: 310px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.backimg4 p{
+    padding-top: 50px;
+}
+.backimg4 button{
+    background-color: gold;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+.backimg5{
+    background-image: url("img/offer-2.jpg");
+    background-size: cover;
+    height: 190px;
+    max-width: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 500px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.backimg5 p{
+    padding-top: 50px;
+}
+.backimg5 button{
+    background-color: gold;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+.quality{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    bottom: 300px;
+}
+.quality li{
+    background-color: rgb(233, 230, 230);
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quality i{
+    color: gold;
+    margin-right: 10px;
+}
+/* First Responsive */
+@media (max-width:846px)
+{.navdiv{
+    margin: 5px 25px 0px 0px;
+    
+}
+.backimg1{
+    max-width:500px;
+    background-size:cover;
+}
+.backimg2{
+    max-width:200px;
+    background-size:cover;
+}
+}
