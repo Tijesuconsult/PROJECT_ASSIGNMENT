@@ -2,18 +2,23 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    max-width: 100%;
+    
+}
+body{
+    background-color: rgb(236, 234, 234);
 }
 .header{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(202, 200, 171);
-    padding: 5px;
+    padding: 10px;
 }
 .headerright{
     display: flex;
     list-style: none;
-    margin:0px 20px;
+    margin:0px 300px 0px 0px;
 }
 .headerleft{
     display: flex;
@@ -63,30 +68,35 @@
     padding: 3px;
     position: relative;
     right: 5px;
+    bottom: 1px;
     border-width: 2px;
+    
 }
 .customer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    margin-right: 300px;
 }
 #categories select{
     padding: 10px 20px;
      background-color: gold;
      border: none;
+    
+
 }
 #categories i{
     padding-left: 15px;
     color: black;
     position: relative;
     left: 20px;
-    top: 11px;  
+    top: 15px;  
 }
 .navdiv{
 display: flex;
 justify-content: space-between;
 margin: 0px 20px 0px 0px;
 border: 1px solid transparent;
-background-color: black;
+background-color: rgb(180, 177, 177);
 border: none;
 }
 
@@ -103,6 +113,7 @@ border: none;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    margin-right: 300px;
 }
 .navbar2 li{
     display: flex;
@@ -130,7 +141,7 @@ color: white;
     background-image:url('img/carousel-1.jpg');
     max-width:900px;
     height: 400px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 40px;
     background-repeat: no-repeat;
     text-align: center;
     color: white;
@@ -178,7 +189,7 @@ color: white;
     height:200px;
     max-width:400px;
     position: relative;
-    left:920px;
+    left:1000px;
     bottom: 400px;
     text-align: center;
     color: white;
@@ -198,7 +209,7 @@ color: white;
     height: 190px;
     max-width: 400px;
     position: relative;
-    left: 920px;
+    left: 1000px;
     bottom: 390px;
     text-align: center;
     color: white;
@@ -261,6 +272,7 @@ color: white;
     list-style: none;
     position: relative;
     bottom: 300px;
+    margin-right: 200px;
 }
 .quality li{
     background-color: rgb(233, 230, 230);
@@ -272,3 +284,30 @@ color: white;
     color: gold;
     margin-right: 10px;
 }
+
+.img1{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    bottom: 150px;
+    margin-right: 200px;
+}
+.img1 li{
+    background-color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.img1 img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    position: relative;
+}
+.img1 span{
+    padding-right: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
